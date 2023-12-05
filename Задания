@@ -1,6 +1,54 @@
-fun main (args: Array<String>){
-    var x = 15
-    if (x > 7 ){
-        println("Привет")
-        x --
-}}
+1. задание. 
+package org.example;
+import java.util.Scanner;
+public class TaskN1 {
+  public static void main(String[] args) {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Введите число: ");
+      int number = scan.nextInt();
+      if (number > 7) {
+          System.out.println("Привет");
+      }
+  }
+}
+        
+2. задание.
+package org.example;
+import java.util.Scanner;
+public class TaskN2 {
+  public static void main(String[] args) {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Введите имя: ");
+      String name = scan.nextLine();
+      if (name.equals("Вячеслав")) {
+          System.out.println("Привет, Вячеслав");
+      } else {
+          System.out.println("Нет такого имени");
+      }
+  }
+}
+3. задание.
+package org.example; 
+   import java.util.Scanner; 
+   public class TaskN3 { 
+     public static void main(String[] args) { 
+         Scanner scan = new Scanner(System.in); 
+         System.out.println("Введите размер массива: "); 
+         int size = scan.nextInt(); 
+         int[] arr = new int[size]; 
+         System.out.println("Введите элементы массива: "); 
+         for (int i = 0; i < size; i++) { 
+             arr[i] = scan.nextInt(); 
+         } 
+         System.out.println("Вывод элементов кратных 3: "); 
+         for (int i = 0; i < size; i++) { 
+             if (arr[i] % 3 == 0) { 
+                 System.out.println(arr[i]); 
+             } 
+         } 
+     } 
+ } 
+4 задание. Последовательность неверная, верная последовательность:
+[(())()(())]
+
+[[((())()(()))]]
