@@ -1,0 +1,6 @@
+fun main (args: Array<String>){
+    var x = 15
+    if (x > 7 ){
+        println("Привет")
+        x --
+}}
